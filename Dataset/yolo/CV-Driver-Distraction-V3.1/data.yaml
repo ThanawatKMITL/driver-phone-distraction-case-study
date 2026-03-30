@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['phone', 'safe', 'texting']
+
+roboflow:
+  workspace: kmitlapkdtii
+  project: cv-driver-distraction
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kmitlapkdtii/cv-driver-distraction/dataset/6

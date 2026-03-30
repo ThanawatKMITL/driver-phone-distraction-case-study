@@ -1,0 +1,15 @@
+item {
+    name: "phone",
+    id: 1,
+    display_name: "phone"
+}
+item {
+    name: "safe",
+    id: 2,
+    display_name: "safe"
+}
+item {
+    name: "texting",
+    id: 3,
+    display_name: "texting"
+}
