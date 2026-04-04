@@ -3,6 +3,8 @@
 This project evaluates the performance of legacy (SSD MobileNet V2) and modern (YOLOv8) object detection architectures for real-time driver safety monitoring.
 
 ## 1. PREPARE THE ENVIRONMENT
+This project use Anaconda as Enviroment
+
 Use Python 3.9 or higher for the modern implementation. Install the required libraries using the command below.
 
 pip install ultralytics streamlit opencv-python roboflow
@@ -14,12 +16,12 @@ The system uses 4,700 frames of labeled data sourced from Kaggle and custom smar
 
 ## 3. MODEL TRAINING
 Run the training cells in the Instruction.ipynb notebook.
-1. The YOLOv8 Nano model achieves 86.1% mAP.
+1. The YOLOv8 Nano model would achieves 86.1% mAP.
 2. The training process saves the final weights as best.pt.
 
 ## 4. QUANTITATIVE LOG ANALYSIS
 The system generates raw CSV logs to prove detection stability.
-1. Review the scatter plots in the notebook.
+1. Review the scatter plots in the (graph copy.ipynb) notebook.
 2. YOLOv8 maintains confidence scores above 70% throughout the 4,700 frames.
 
 ## 5. LAUNCH THE SAFETY INTERFACE
